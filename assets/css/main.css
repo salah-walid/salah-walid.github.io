@@ -158,8 +158,7 @@ input, select, textarea {
 	overflow: hidden;
 	padding: 2em 0 2em 0;
 	margin-bottom: 0;
-	border-right : 2px dashed black;
-	border-left : 2px dashed black;
+
 }
 
 	.carousel .forward, .carousel .backward {
@@ -242,7 +241,7 @@ input, select, textarea {
 		display: inline-block;
 		vertical-align: top;
 		top : 10px;
-		width: 14em;
+		width: 16em;
 		background: #fff;
 		text-align: center;
 		padding: 0 1em 3em 1em;
@@ -3641,5 +3640,11 @@ input, select, textarea {
 			ul.feature-icons li {
 				display: block;
 				width: 100%;
+			}
+
+			.carousel{
+
+				border-right : 2px dashed black;
+				border-left : 2px dashed black;
 			}
 	}
