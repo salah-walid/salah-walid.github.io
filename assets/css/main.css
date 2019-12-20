@@ -158,6 +158,8 @@ input, select, textarea {
 	overflow: hidden;
 	padding: 2em 0 2em 0;
 	margin-bottom: 0;
+	border-right : 2px dashed black;
+	border-left : 2px dashed black;
 }
 
 	.carousel .forward, .carousel .backward {
@@ -184,7 +186,7 @@ input, select, textarea {
 			-o-transition: background-color 0.35s ease-in-out;
 			-ms-transition: background-color 0.35s ease-in-out;
 			transition: background-color 0.35s ease-in-out;
-			-webkit-backface-visibility: hidden;
+			
 		}
 
 		.carousel .forward:after, .carousel .backward:after {
@@ -238,7 +240,9 @@ input, select, textarea {
 
 	.carousel article {
 		display: inline-block;
-		width: 18em;
+		vertical-align: top;
+		top : 10px;
+		width: 14em;
 		background: #fff;
 		text-align: center;
 		padding: 0 1em 3em 1em;
@@ -257,6 +261,8 @@ input, select, textarea {
 
 		.carousel article .image {
 			position: relative;
+			width: 250;
+			height: 150;
 			left: -1em;
 			top: 0;
 			width: auto;
@@ -3636,12 +3642,4 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
-
-		/* Button */
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			
-
 	}
